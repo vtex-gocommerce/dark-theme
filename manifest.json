@@ -1,0 +1,24 @@
+{
+  "vendor": "gocommerce",
+  "name": "dark-theme",
+  "version": "0.0.1",
+  "title": "Dark Theme",
+  "defaultLocale": "pt-BR",
+  "description": "Dark Theme for Dreamstore",
+  "builders": {
+    "react": "2.x",
+    "pages": "0.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "categories": [],
+  "registries": [
+    "smartcheckout",
+    "gocommerce"
+  ],
+  "settingsSchema": {},
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+  }
+}
